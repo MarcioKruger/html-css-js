@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercício 004</title>
+</head>
+<body>
+    <h1><a href="index.html">Página 1</a></h1>
+    <h1>Imagens dinâmicas</h1>
+    <p>
+        tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Reproduzindo áudio em HTML5</p>
+    <p>
+        <audio src="midia/break-your-lock.mp3" controls>Música 1</audio>
+    </p>
+    <p>
+        <audio src="midia/Movin-up .mp3" controls>Música 2</audio>
+    </p>
+    <p>
+        <audio controls>
+            <source src="midia/break-your-lock.mp3" type="audio/mpeg">Música 1
+        </audio>
+    </p>
+    <p>
+        <audio controls>
+            <source src="midia/Movin-up .mp3" type="audio/mpeg">
+        </audio>
+    </p>
+    <h1>Colocando vídeos no meu site.</h1>
+    <p>Víeos hospedados no servidor do site:</p>
+    <video src="midia/video-1.mp4" controls width="550">Video 1</video>
+    <p></p>
+    <video controls width="550">
+        <source src="midia/video-1.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
+ 
